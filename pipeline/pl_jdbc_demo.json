@@ -1,0 +1,30 @@
+{
+	"name": "pl_jdbc_demo",
+	"properties": {
+		"activities": [
+			{
+				"name": "Note to adf",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Shared/JDBC Testing"
+				},
+				"linkedServiceName": {
+					"referenceName": "ls_jdbc",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2024-12-20T07:03:59Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
