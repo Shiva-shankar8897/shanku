@@ -1,9 +1,0 @@
-{
-	"name": "JdbcADF",
-	"location": "centralindia",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "43393f19-cc8f-492a-a048-f22354166087",
-		"tenantId": "3272dc01-dcdb-4ed9-b7f1-49581ab351ce"
-	}
-}
