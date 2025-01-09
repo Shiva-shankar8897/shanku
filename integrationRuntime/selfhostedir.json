@@ -1,7 +1,0 @@
-{
-	"name": "selfhostedir",
-	"properties": {
-		"type": "SelfHosted",
-		"description": "selfhost from onpremise"
-	}
-}
